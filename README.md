@@ -61,6 +61,47 @@ c.txt
 d.txt
 file_list.txt
 
+root@shubham-Latitude-7480:~# cat a.txt
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+root@shubham-Latitude-7480:~# head a.txt
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+root@shubham-Latitude-7480:~# 
 
+root@shubham-Latitude-7480:~# tail a.txt
+h
+i
+j
+k
+l
+m
+n
+o
+p
+
+root@shubham-Latitude-7480:~# 
 
 
