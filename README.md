@@ -27,7 +27,7 @@ chgrp boxer filea
 -rwxrwxrwx  1 shubham boxer     32 Feb 21 13:28 filea
 drwxr-x--- 21 shubham shubham 4096 Feb 21 11:27 shubham
 ```
-***Check File/Folder/Content (LS, LL, CAT, GREP, HEAD, TAIL, LESS, MORE, ECHO)**
+**Q Check File/Folder/Content (LS, LL, CAT, GREP, HEAD, TAIL, LESS, MORE, ECHO)**
 ```
 ls
 filea  shubham
@@ -165,6 +165,56 @@ af
 ag
 ah
 ai
+
+
+root@shubham-Latitude-7480:/home# current_date=$(date)
+root@shubham-Latitude-7480:/home# echo $current_date
+Friday 23 February 2024 10:16:04 PM IST
+root@shubham-Latitude-7480:/home# echo $current_date >>b.txt
+root@shubham-Latitude-7480:/home# cat b.txt
+hello world
+
+Friday 23 February 2024 10:16:04 PM IST
+root@shubham-Latitude-7480:/home# echo "I am adding a new line" >>b.txt
+root@shubham-Latitude-7480:/home# cat b.txt
+hello world
+
+Friday 23 February 2024 10:16:04 PM IST
+I am adding a new line
+
+
+**Q Copy and Move Command (RM, CP, MV, SCP, RSYNC)**
+
+root@shubham-Latitude-7480:/home# ls
+a.txt  b.txt  c.txt  d.txt  filea  file_list.txt  shubham
+root@shubham-Latitude-7480:/home# rm filea
+root@shubham-Latitude-7480:/home# ls
+a.txt  b.txt  c.txt  d.txt  file_list.txt  shubham
+
+
+root@shubham-Latitude-7480:/home# cat b.txt
+hello world
+
+Friday 23 February 2024 10:16:04 PM IST
+I am adding a new line
+root@shubham-Latitude-7480:/home# cp b.txt c.txt
+root@shubham-Latitude-7480:/home# cat c.txt
+hello world
+
+Friday 23 February 2024 10:16:04 PM IST
+I am adding a new line
+
+
+root@shubham-Latitude-7480:/home# vi filea
+root@shubham-Latitude-7480:/home# cat filea
+hello all
+
+root@shubham-Latitude-7480:/home# touch fileb
+root@shubham-Latitude-7480:/home# mv filea fileb
+root@shubham-Latitude-7480:/home# cat fileb
+hello all
+
+
 
 
 
